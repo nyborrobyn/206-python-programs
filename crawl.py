@@ -4,11 +4,10 @@
 __author__ = 'Robyn Perry'
 __email__ = 'robyn@ischool.berkeley.edu'
 __python_version = '2.7.2'
-__can_anonymously_use_as_example = True
 
 
-from i206_a6_search_robyn import term_search
-from i206_a6_index_robyn import *
+from search import term_search
+from index import *
 from bs4 import BeautifulSoup
 from collections import defaultdict
 from urllib2 import urlopen
