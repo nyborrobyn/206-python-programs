@@ -3,7 +3,6 @@
 __author__ = 'Robyn Perry'
 __email__ = 'robyn@ischool.berkeley.edu'
 __python_version = '2.6.1'
-__can_anonymously_use_as_example = True
 
 
 from common import *
@@ -12,7 +11,7 @@ from common import *
 		
 def get_tweets(sentiment_dict): 
 	import string
-	tweet_list = open('tweets.txt','r').readlines()
+	tweet_list = open('famous_tweets.txt','r').readlines()
 #Read tweets from file.
 	raw_tweets = tweet_list
 	new_list = []
