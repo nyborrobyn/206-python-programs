@@ -1,0 +1,1 @@
+The material in this repository is most of the substantive programming I did in Distributed Computing Applications & Infrastructure (INFO 206) in Fall 2013 at UC Berkeley. The course was designed to introduce students broadly to computer science and develop some experience programming using Python. 
